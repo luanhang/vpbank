@@ -1,0 +1,18 @@
+﻿---
+ID: "98e7bbbb-ac51-458c-8650-7240c564c616"
+Parent: "2b901275-bc1e-4cce-942e-2682fa726432"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/VPBank/Project/Common/Header
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Common/Sublayouts/Header.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180711T075220Z

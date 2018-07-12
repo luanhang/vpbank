@@ -1,0 +1,14 @@
+﻿---
+ID: "2b901275-bc1e-4cce-942e-2682fa726432"
+Parent: "cd041546-7be8-4109-aec6-240114335305"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/VPBank/Project/Common
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180711T091345Z

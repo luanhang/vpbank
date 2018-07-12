@@ -1,0 +1,56 @@
+﻿@using Sitecore.Foundation.Assets
+@using Sitecore.Foundation.Assets.Models
+@using Sitecore.Foundation.Assets.Services
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Analytics.Extensions
+@inherits WebViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Html.Sitecore().Placeholder("Header")
+    }
+    <!--css-->
+    <link rel="stylesheet" href="@Href("~/styles/css/vender/plugin.css")" />
+    <link rel="stylesheet" href="@Href("~/styles/css/main.css")" />
+    <!--end css-->
+
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body class="header-static @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+    <header id="header">
+        @Html.Sitecore().Placeholder("Header")
+    </header>
+    <div id="main" class="page page-home">
+        @Html.Sitecore().Placeholder("page-layout")
+    </div>
+    <footer id="footer">
+        <div class="container">
+            @Html.Sitecore().Placeholder("Footer")
+        </div>
+    </footer>
+    <!-- js -->
+    <script type="text/javascript" src="@Url.Content("~/styles/js/vendor/jquery.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/styles/js/vendor/bootstrap.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/styles/js/vendor/plugins.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/styles/js/main.js")"></script>
+    <noscript>
+        <div>
+            For full functionality of this site it is necessary to enable JavaScript. Here are the
+            <a href="http:http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser</a>.
+        </div>
+    </noscript>
+    <!--end js-->
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿---
+ID: "93efba33-9b4d-4d39-9676-683f01bbec31"
+Parent: "7b6cc1da-2104-4bfb-a4ad-21a6b1d2ca9c"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/VPBank/Feature/Navigation/Main Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180711T075242Z

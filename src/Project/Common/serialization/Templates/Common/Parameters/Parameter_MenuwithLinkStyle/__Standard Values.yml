@@ -1,0 +1,14 @@
+﻿---
+ID: "83163ec2-d7f7-44a2-9620-7270f62f6a07"
+Parent: "0d080f9c-c564-41de-a372-8bd85724d27e"
+Template: "0d080f9c-c564-41de-a372-8bd85724d27e"
+Path: /sitecore/templates/Project/Common/Parameters/Parameter_MenuwithLinkStyle/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20180712T090051:636669828516698456Z"

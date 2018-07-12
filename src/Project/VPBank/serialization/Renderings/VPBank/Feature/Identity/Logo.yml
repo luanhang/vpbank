@@ -1,0 +1,14 @@
+﻿---
+ID: "be7b43cd-1880-4452-b246-8271e4c5e9ff"
+Parent: "0e70b880-1c7f-40ca-b305-5c07881e2541"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/VPBank/Feature/Identity/Logo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180711T081656Z

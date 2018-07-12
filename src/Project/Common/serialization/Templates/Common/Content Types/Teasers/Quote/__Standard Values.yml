@@ -9,9 +9,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "0de53078-0da4-40cc-bbca-63aa96a0a1ef"
-      Hint: Quote
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151124T110522Z

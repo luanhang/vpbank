@@ -8,14 +8,14 @@
     using Sitecore.Foundation.Accounts.Providers;
     using Sitecore.Foundation.DependencyInjection;
 
-    [Service(typeof(IVisitsRepository))]
-    public class VisitsRepository : IVisitsRepository
+    [Service]
+    public class VisitsRepository
     {
         private readonly IContactFacetsProvider contactFacetsProvider;
-        private readonly IEngagementPlanStateRepository engagementPlanStateRepository;
-        private readonly IPageViewRepository pageViewRepository;
+        private readonly EngagementPlanStateRepository engagementPlanStateRepository;
+        private readonly PageViewRepository pageViewRepository;
 
-        public VisitsRepository(IContactFacetsProvider contactFacetsProvider, IEngagementPlanStateRepository engagementPlanStateRepository, IPageViewRepository pageViewRepository)
+        public VisitsRepository(IContactFacetsProvider contactFacetsProvider, EngagementPlanStateRepository engagementPlanStateRepository, PageViewRepository pageViewRepository)
         {
             this.contactFacetsProvider = contactFacetsProvider;
             this.engagementPlanStateRepository = engagementPlanStateRepository;

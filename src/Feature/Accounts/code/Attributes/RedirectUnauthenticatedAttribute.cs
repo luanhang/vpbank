@@ -9,14 +9,9 @@
     {
         private readonly IGetRedirectUrlService getRedirectUrlService;
 
-        public RedirectUnauthenticatedAttribute() : this(ServiceLocator.ServiceProvider.GetService<IGetRedirectUrlService>())
+        public RedirectUnauthenticatedAttribute()
         {
-            
-        }
-
-        public RedirectUnauthenticatedAttribute(IGetRedirectUrlService getRedirectUrlService)
-        {
-            this.getRedirectUrlService = getRedirectUrlService;
+            this.getRedirectUrlService = ServiceLocator.ServiceProvider.GetService<IGetRedirectUrlService>();
         }
 
         public void OnAuthorization(AuthorizationContext context)

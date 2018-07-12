@@ -17,9 +17,9 @@ namespace Sitecore.Feature.Demo.Pipelines
 
     public class FakeTrackerData
     {
-        public IDemoStateService DemoStateService { get; }
+        public DemoStateService DemoStateService { get; }
 
-        public FakeTrackerData(IDemoStateService demoStateService)
+        public FakeTrackerData(DemoStateService demoStateService)
         {
             this.DemoStateService = demoStateService;
         }

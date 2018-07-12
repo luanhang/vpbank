@@ -14,8 +14,8 @@
     using Sitecore.Foundation.SitecoreExtensions.Extensions;
     using Sitecore.XConnect.Collection.Model;
 
-    [Service(typeof(IPersonalInfoRepository))]
-    public class PersonalInfoRepository : IPersonalInfoRepository
+    [Service]
+    public class PersonalInfoRepository
     {
         private readonly LocationRepository locationRepository;
         private readonly DeviceRepository deviceRepository;
